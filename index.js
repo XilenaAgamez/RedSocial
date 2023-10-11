@@ -27,9 +27,9 @@ const UserRoutes = require("./routes/user");
 const PublicationRoutes = require("./routes/publication");
 const FolloeRoutes = require("./routes/follow");
 
-app.use("/api", UserRoutes);
-app.use("/api", PublicationRoutes);
-app.use("/api", FolloeRoutes);
+app.use("/api/user", UserRoutes);
+app.use("/api/publication", PublicationRoutes);
+app.use("/api/follow", FolloeRoutes);
 
 
 //Ruta de prueba
